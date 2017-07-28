@@ -1,0 +1,22 @@
+body {
+  margin: 0;
+}
+
+header {
+  background-color: #000;
+  color: #FFF;
+  overflow: auto;
+  padding: 10px;
+}
+
+header a {
+  color: #FFF;
+}
+
+header .welcome {
+  float: left;
+}
+
+header .list {
+  float: right;
+}

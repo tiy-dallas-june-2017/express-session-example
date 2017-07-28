@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>First Page</title>
+    <link rel="Stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <div class="welcome">Name: {{name}}</div>
+      <div class="list"><a href="/pagelist">View Page List</a></div>
+    </header>
+
+    <h1>Page View List</h1>
+
+    <p>I am a super spy. I have been watching all your pages.</p>
+
+    <p>I fully intend to use this against you.</p>
+
+    <ul>
+    {{#pages}}
+      <li><a href="/{{.}}">{{.}}</a></li>
+    {{/pages}}
+    </ul>
+
+  </body>
+</html>
